@@ -8,8 +8,7 @@ public class ghTeste {
     }
 
     private String palavra(String s) {
-        String retorno = "A palavra possui " + s.length() + " caracteres.";
-        return retorno;
+        return "A palavra possui " + s.length() + " caracteres.";
     }
 
     private int soma(int x, int y) {
@@ -152,7 +151,6 @@ public class ghTeste {
         }
 
         System.out.println("A media aritmetica é " + media);
-        boolean var12 = false;
 
         try {
             System.out.print("Determine a constante k: ");
